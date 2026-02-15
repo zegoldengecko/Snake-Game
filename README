@@ -1,5 +1,40 @@
-**UNFINISHED**
+OVERVIEW
+This is a classic Snake game built in C++ using the Raylib framework.
+I created it as a learning project to practice object-oriented design, game loops, collision detection, and basic audio integration.
+The game is fully playable and includes smooth movements, sound effects and a simple UI
 
-This is a simple snake game made in C++
-It does not work as intended, functions properly until the first death
-Work may be done on it at a later date
+FEATURES
+- Fully playable Snake game
+- Grid-based movemnet
+- Randomised food spawning
+- Score tracking
+- Sound effects for eatinga nd dying
+- Custom textures for snake head and food
+- Basic death animation
+
+GAME MECHANICS
+Snake
+- Implemented using deque<Vector2> for efficient head/tail updates
+- Grows when eating
+- Resets on death
+- Custom head texture
+
+Food
+- Randomly placed on the grid
+- Custom texture
+
+Collisions
+- Food, Wall and Tail collisions
+- Game over triggers a reset
+
+TECH STACK
+- Language: C++
+- Framework: Raylib
+- Math Helpers: RayMath
+- Build System: Visual Studio
+
+HOW TO RUN
+- Install Raylib
+- Clone the repository
+- Build using your preferred compiler
+- Run the executable
